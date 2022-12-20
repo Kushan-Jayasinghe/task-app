@@ -17,7 +17,7 @@ public class TaskDAOImpl implements TaskDAO {
 
     @Override
     public Task save(Task task) {
-        return null;
+        connection.prepareStatement("INSERT INTO Task (content,ststus,project_id) VALUES (?,?,?)"),
     }
 
     @Override
